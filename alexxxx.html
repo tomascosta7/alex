@@ -1,0 +1,83 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Please take me to Paris!</title>
+    <style>
+        /* Reset default margins */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Background with Parisian vibe */
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #ffecd2, #fcb69f);
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            color: #2e1f1f;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.85);
+            padding: 50px 70px;
+            border-radius: 30px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+            border: 5px dashed #c94f4f;
+            max-width: 80%;
+        }
+
+        .container:hover {
+            transform: translateY(-15px);
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 30px;
+            color: #a52a2a;
+            text-shadow: 1px 1px #fff;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 20px 40px;
+            font-size: 48px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #ff6b6b;
+            border: none;
+            border-radius: 50%;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #e63946;
+            transform: scale(1.1);
+        }
+
+        .eiffel {
+            font-size: 100px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="eiffel">🗼</div>
+        <h1>Please take me to Paris!</h1>
+        <a class="btn" href="https://www.google.com/search?q=voos+para+Paris" target="_blank">🐷</a>
+    </div>
+</body>
+</html>
